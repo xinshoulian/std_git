@@ -4,5 +4,7 @@ git init 初始化
 git status 查看当前状态
 git add 文件名 
 git add . 添加当前目录
-git log
-git log --pretty=oneline
+git log 获取版本号
+git log --pretty=oneline 获取版本号
+git reset --hard 版本号
+git reflog 获取历史版本号
