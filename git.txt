@@ -16,3 +16,6 @@ git push 提交线上仓库
 git pull 拉取线上内容
 git remote add origin 线上仓库地址
 git push -u origin master
+
+ssh-keyen -t rsa -C "" 生成SSHkey
+HTTP修改.git/config 文件
