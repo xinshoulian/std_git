@@ -1,10 +1,18 @@
 git config  --global user.email "" 设置邮箱
 git config  --global user.name "" 设置用户名
+
 git init 初始化
 git status 查看当前状态
 git add 文件名 
 git add . 添加当前目录
+
 git log 获取版本号
 git log --pretty=oneline 获取版本号
 git reset --hard 版本号
 git reflog 获取历史版本号
+
+git clone 克隆线上仓库
+git push 提交线上仓库
+git pull 拉取线上内容
+git remote add origin 线上仓库地址
+git push -u origin master
