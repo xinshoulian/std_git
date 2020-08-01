@@ -4,3 +4,5 @@ git init 初始化
 git status 查看当前状态
 git add 文件名 
 git add . 添加当前目录
+git log
+git log --pretty=oneline
